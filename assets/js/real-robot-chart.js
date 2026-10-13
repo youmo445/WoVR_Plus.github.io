@@ -15,7 +15,7 @@
     {task:'Towel Folding', lines:['Towel','Folding'], group:'Bimanual', successes:[3,7], n:20, bounds:[[5.236780,36.042330],[18.118955,56.714949]]},
     {task:'Average', lines:['Across all','six tasks'], group:'All tasks', successes:[47,67], n:120, bounds:[[30.899056,48.106383],[46.904361,64.400403]]}
   ];
-  const names = ['SFT','I-WoVR'];
+  const names = ['SFT','WoVR+'];
   const NS = 'http://www.w3.org/2000/svg';
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const svgNode = (tag, attrs = {}, text) => {

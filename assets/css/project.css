@@ -1,4 +1,4 @@
-/* I-WoVR-specific video controls. Base typography, colors, spacing, hero,
+/* WoVR+-specific video controls. Base typography, colors, spacing, hero,
    navigation, headings, media frames, captions and cards come from RISE. */
 button, select { font-family: inherit; }
 button { cursor: pointer; }
@@ -199,3 +199,8 @@ section, .task-comparison, #recovery { scroll-margin-top: 84px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Latest paper figures; preserve the RISE base stylesheet. */
+.extended-scope-figure { max-width: 1000px; margin: 24px auto; }
+.extensions-overview-figure { max-width: none; margin: 24px auto; }
+.result-block h4 { color: var(--navy); font: 600 18px/1.4 Georgia, "Times New Roman", Times, serif; margin: 24px 0 12px; }
