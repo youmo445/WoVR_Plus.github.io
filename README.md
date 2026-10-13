@@ -1,8 +1,11 @@
-# I-WoVR
+# WoVR+
 
-Project website for **I-WoVR: VLA-Interface-Aligned World Models for Reliable Closed-Loop Reinforcement Learning**.
+Project website for **WoVR+: World Model as Reliable Simulator for Versatile VLA Policy Optimization with RL**.
 
-This repository contains the current static project-page draft, including real-robot demonstrations, the framework and methodology, and experimental results. Abstract and citation information are still placeholders.
+This repository contains the named project website, including authors and affiliations, real-robot demonstrations, the WoVR and WoVR+ frameworks, methodology, experimental results, the paper abstract, and same-action world-model replays.
+
+- [Project website](https://youmo445.github.io/WoVR_Plus.github.io/)
+- [Repository](https://github.com/youmo445/WoVR_Plus.github.io)
 
 ## Preview
 
@@ -10,15 +13,15 @@ Serve the repository root with any static HTTP server. No package installation o
 
 All asset paths are relative, so the site supports GitHub Pages project URLs. Videos play at a fixed 2x rate. The six-task success charts and phone-packaging results are rendered natively in the browser.
 
-The same-action GT / I-WoVR world-model replay section follows Abstract. It contains 20 uncaptioned comparison videos: RoboTwin Random (the default group), RoboTwin Clean, six real-world tasks, and four phone-packaging stages. Each pair shows GT on the left and world-model replay on the right, with head and two wrist views arranged vertically.
+The same-action GT / WoVR+ world-model replay section follows Abstract. It contains 20 comparison videos: five RoboTwin Random pairs (the default group), five RoboTwin Clean pairs, six real-world task pairs, and four phone-packaging examples. Each pair shows GT on the left and world-model replay on the right, with head, left-wrist, and right-wrist views arranged vertically. The source videos are replayed without added captions.
 
 ## GitHub Pages
 
 In **Settings > Pages**, choose **Deploy from a branch**, then select **main** and **/(root)**. The `.nojekyll` file serves the static site without a Jekyll build.
 
-The expected project URL after enabling Pages is:
+The project URL is:
 
-https://youmo445.github.io/I-WoVR.github.io/
+https://youmo445.github.io/WoVR_Plus.github.io/
 
 ## Attribution
 

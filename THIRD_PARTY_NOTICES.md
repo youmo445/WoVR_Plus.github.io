@@ -2,7 +2,7 @@
 
 ## RISE website styling
 
-The base stylesheet `assets/css/style.css` is adapted from the official [RISE project website](https://opendrivelab.com/RISE/) and is preserved without modification in this draft. The historical project-page source is available in [OpenDriveLab/RISE at revision 2ec1156](https://github.com/OpenDriveLab/RISE/tree/2ec1156).
+The base stylesheet `assets/css/style.css` is adapted from the official [RISE project website](https://opendrivelab.com/RISE/) and is preserved without modification. The historical project-page source is available in [OpenDriveLab/RISE at revision 2ec1156](https://github.com/OpenDriveLab/RISE/tree/2ec1156).
 
 The RISE website also informed the page layout and chart palette. RISE project text, experiment data, images, and videos are not included in this site's project content.
 
